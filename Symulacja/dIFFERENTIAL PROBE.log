@@ -1,6 +1,6 @@
 LTspice 24.0.7 for Windows
 Circuit: * C:\Users\Michal\Documents\Elektronika\Kicad\Projekty\Differential probe\Differential-Probe\Symulacja\dIFFERENTIAL PROBE.asc
-Start Time: Tue Mar 25 21:52:55 2025
+Start Time: Sat Mar 29 12:24:12 2025
 solver = Normal
 Maximum thread count: 24
 tnom = 27
@@ -49,5 +49,5 @@ Ignoring empty pin current: Ix(u1:vout+)
 Ignoring empty pin current: Ix(u1:vout-)
 Ignoring empty pin current: Ix(u2:a)
 Ignoring empty pin current: Ix(u2:c)
-Total elapsed time: 2.246 seconds.
+Total elapsed time: 0.420 seconds.
 

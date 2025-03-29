@@ -1,0 +1,55 @@
+* C:\Users\Michal\Documents\Elektronika\Kicad\Projekty\Differential probe\Differential-Probe\Symulacja\dIFFERENTIAL PROBE.asc
+XU1 plus_ N006 N007 zas+ zas- OPA820
+V1 in+ in- SINE(0 1500 10meg) AC ac 1 Rser=1u
+R3 0 plus_ 20k
+V2 zas+ 0 6
+V3 0 zas- 6
+XU2 minus_ N010 N015 zas+ zas- OPA820
+XU3 N009 N005 N008 zas+ zas- OPA820
+V4 +12 0 12
+B1 gain 0 V=(1+2*(R1/Rgain))*(R3/R2)
+R1 N001 in+ 3Meg
+R12 minus_ 0 20k
+R2 N002 N001 3Meg
+R4 N003 N002 3Meg
+R5 N004 N003 3Meg
+R6 plus_ N004 3Meg
+R7 N011 in- 3Meg
+R8 N012 N011 3Meg
+R9 N013 N012 3Meg
+R10 N014 N013 3Meg
+R11 minus_ N014 3Meg
+R20 out 0 1Meg
+R13 N006 test+ 100
+R15 N010 NC_01 200
+C1 N001 in+ 10p
+C2 N002 N001 10p
+C3 N003 N002 10p
+C4 N004 N003 10p
+C5 plus_ N004 10p
+C6 N011 in- 10p
+C7 N012 N011 10p
+C8 N013 N012 10p
+C9 N014 N013 10p
+C10 minus_ N014 10p
+C11 0 minus_ 1.51n
+C12 plus_ 0 1.51n
+R14 test- N010 100
+R16 test+ N009 100
+R17 N009 0 100
+R18 N005 out 100
+R19 test- N005 100
+V5 N007 test+ 0
+V6 N015 test- 0
+V7 N008 out 0
+.tran 10u
+.param R1 100k
+.param Rgain 200k
+.param R3 100k
+.param R2 100k
+* 4Vpp, 2V amplitude for 1500V
+* 8Vpp, 4V amplitude
+* 0.0013315579 GAIN
+.lib Sborka.lib
+.backanno
+.end
