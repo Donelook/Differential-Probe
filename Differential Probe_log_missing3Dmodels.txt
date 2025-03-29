@@ -1,0 +1,1 @@
+[('U1', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\Package_DFN_QFN.3dshapes\\VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.wrl'), ('J4', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\Connector_Coaxial.3dshapes\\BNC_Amphenol_B6252HB-NPP3G-50_Horizontal.wrl')]
