@@ -1,4 +1,4 @@
-24739091522881761
+24740834801670361
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65847,6 +65847,13 @@ Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimpor
 Yellow 5381 Series LED
 0
 2
+2
+Library
+BNC_Molex_73100-0154-50_Horizontal
+https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/731/73101/731000154_sd.pdf?inline
+BNC Molex Horizontal
+0
+3
 2
 Library
 QFN50P300X300X80-17N
