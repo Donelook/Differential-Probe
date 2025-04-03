@@ -1,13 +1,13 @@
 LTspice 24.0.7 for Windows
 Circuit: * C:\Users\Michal\Documents\Elektronika\Kicad\Projekty\Differential probe\Differential-Probe\Symulacja\dIFFERENTIAL PROBE.asc
-Start Time: Sun Mar 30 15:43:52 2025
+Start Time: Sun Mar 30 18:04:32 2025
 solver = Normal
 Maximum thread count: 24
 tnom = 27
 temp = 27
 method = modified trap
-c13: Increased Cpar to 1e-18
-c14: Increased Cpar to 1e-17
+c16: Increased Cpar to 5e-18
+c15: Increased Cpar to 5e-18
 WARNING: Less than two connections to node +12.  This node is used by v4.
 WARNING: Less than two connections to node nc_01.  This node is used by r15.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
@@ -50,5 +50,6 @@ Ignoring empty pin current: Ix(u1:vout+)
 Ignoring empty pin current: Ix(u1:vout-)
 Ignoring empty pin current: Ix(u2:a)
 Ignoring empty pin current: Ix(u2:c)
-Total elapsed time: 0.274 seconds.
+Heightened Def Con from 3.73135e-06 to 3.73135e-06
+Total elapsed time: 1.967 seconds.
 
